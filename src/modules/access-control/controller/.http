@@ -1,0 +1,36 @@
+###
+
+POST http://localhost:3000/access-control
+Content-Type: application/json
+
+{
+  "name": "user",
+  "can": ["user:create"]
+}
+
+###
+
+GET http://localhost:3000/access-control
+Content-Type: application/json
+
+###
+
+PUT http://localhost:3000/access-control/8b0ff4f5-2967-4dbb-80c5-6640b3380651
+Content-Type: application/json
+
+{
+  "name": "user",
+  "can": ["user:create"]
+}
+
+###
+
+POST http://localhost:3000/validate-access
+Content-Type: application/json
+
+{
+  "userRole": "admin",
+  "can": "admin:create"
+}
+
+###

@@ -1,0 +1,7 @@
+{
+  "error": {
+    "server": "Algo de erro aconteceu, contactar o suporte!",
+    "invalid_params": "Verificar os campos: [{args}]",
+    "route_not_found": "Rota não encontrada"
+  }
+}
