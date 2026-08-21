@@ -1,5 +1,3 @@
-# cashin-node-access-control-api
-
 ## RBAC
 
 ![alt text](./public/rbac.jpeg "Clean Architecture")
